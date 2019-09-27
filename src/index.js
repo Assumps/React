@@ -1,15 +1,28 @@
 import React  from 'react'
 import ReactDOM from 'react-dom'
 // import PrimeiroComponente from './Componentes/PrimeiroComponente'
-import {CompA,CompB} from './Componentes/DoisComponentes'
-import MultiElementos from './Componentes/MultiElementos'
+// import CompA, {CompB as B} from './Componentes/DoisComponentes'
+//  import MultiElementos from './Componentes/MultiElementos'
+// import Familia from './Componentes/familia'
+import Family from './Componentes/Family'
+import Membro from './Componentes/Membro'
+
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <MultiElementos/>
-        {/* <PrimeiroComponente valor="Bom Dia!" aBcD={Math.pow(2,8)}/> }
-        {/* <CompA valor="Ola eu sou A"/>
-        <CompB valor="B na area!"/> */}
+        <Family sobrenome=" Pereira">
+            <Membro nome="Andre"/>
+            {/* <Membro nome="Mariana"/> */}
+        </Family>
+        {/* <Family>
+            <Membro nome="Bia" sobrenome="Arruda"/>
+            <Membro nome="Gustavo" sobrenome="Arruda"/>
+        </Family> */}
+        {/* {<Familia/> } */}
+        {/* <MultiElementos/> */}
+        {/* { <PrimeiroComponente valor="Bom Dia!" aBcD={Math.pow(2,8)}/> } */}
+        {/* {<CompA valor="Ola eu sou A"/>} */}
+        {/* {<B valor="B na area!"/>} */}
     </div>
 , elemento)
 
