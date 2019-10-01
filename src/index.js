@@ -7,12 +7,14 @@ import ReactDOM from 'react-dom'
 // import Family from './Componentes/Family'
 // import Membro from './Componentes/Membro'
 //import ComponenteComFunction from './Componentes/ComponenteComFunction'
-import Pai from './Componentes/Pai'
+//import Pai from './Componentes/Pai'
+import ComponenteClasse from './Componentes/ComponenteClasse'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Pai />
+        <ComponenteClasse valor="Sou um Componente de Classe"/>
+        {/* <Pai /> */}
         {/* <ComponenteComFunction/> */}
         {/* <Family sobrenome=" Pereira ">
             <Membro nome="Andre"/>
