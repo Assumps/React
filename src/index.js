@@ -6,13 +6,14 @@ import ReactDOM from 'react-dom'
 // import Familia from './Componentes/familia'
 // import Family from './Componentes/Family'
 // import Membro from './Componentes/Membro'
-import ComponenteComFunction from './Componentes/ComponenteComFunction'
+//import ComponenteComFunction from './Componentes/ComponenteComFunction'
+import Pai from './Componentes/Pai'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <ComponenteComFunction/>
-        
+        <Pai />
+        {/* <ComponenteComFunction/> */}
         {/* <Family sobrenome=" Pereira ">
             <Membro nome="Andre"/>
             <Membro nome="Mariana"/>
